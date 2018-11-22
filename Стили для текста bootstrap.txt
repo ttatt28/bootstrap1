@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Последняя компиляция и сжатый CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Дополнение к теме -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Последняя компиляция и сжатый JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+   </head>
+
+//сверху херь для бутстрапа
+
+
+ 
+
+<h1>текст</h1>//размеры текста
+<h3>текст</h5>
+<h5>текст</h5>
+
+<h1>тест"до"<small>маленький текст</small>текст"после"</h1>//small уменьшает текст на 15% от h1 и делает его светлее
+
+<p>"обзац"</p>
+
+<p class="text-left">Равнение по левому краю </p>
+<p class="text-center">Текст по центру</p>
+<p class="text-right">Равнение по правому краю</p>
+<p class="text-justify">Равнение обоим краям (по ширине)</p>
+<p class="text-nowpar">Текст без переносов</p>
+
+
+<mark>текст</mark>//выделяет текст 
+
+
+
+<blockquote > (если сделать  <blockquote class="blockquote-reverse" >,то цитата будет с другой стороны)
+  цитата
+  <footer>Автор</footer>
+</blockquote>
+
+
+ <p class="text-uppercase">верхний регистр</p>//все буквы заглавные
+ <p class="text-lowercase">НИЖНИЙ РЕГИСТР</p>//все буквы маленькие (не заглав)
+ <p class="text-capitalize">заглавные буквы</p>//первые буквы слова заглавные
+
+
+<code>for</code>,<code>while</code>,<code>do while</code>//code красиво выделяет название циклов и вообще всего 
+
+<pre>//красиво записывает "сам код" программы ,выделяет в отдельную рамочку, особенно после назания циклов и тп .например:
+for (int i = 0; i < 10; i++)
+  print ("Hi!");
+</pre>
+
+
+//классы текстов и их назначения
+<p class="text-muted">бледно серый  текст(грустное)</p>
+<p class="text-primary">голубой текст (тип важное)</p>
+<p class="text-success">зеленый текст (всё хорошо)</p>
+<p class="text-info">синий текст(с инфой)</p>
+<p class="text-warning">коричневый текст(внимание,стоит прочитать)</p>
+<p class="text-danger">красный текст(опасный)</p>
+
+
+//bg=background фон
+<p class="bg-primary">голубой фон (тип важное)</p>
+<p class="bg-success">зеленый фон (всё хорошо)</p>
+<p class="bg-info">синий фон(с инфой)</p>
+<p class="bg-warning">коричневый фон(внимание,стоит прочитать)</p>
+<p class="bg-danger">красный фон(опасный)</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
